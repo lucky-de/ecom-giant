@@ -1,0 +1,19 @@
+
+/*# sourceMappingURL=custom.min.css.map */
+
+
+#dataTables_table_init .btn{
+    padding: .0rem 0.3rem !important;
+}
+.table>:not(caption)>*>* {
+    padding: 0.4rem 0.4rem;
+}
+.float-left{
+    float: right !important;
+}
+.hide{
+    display: none;
+}
+.error{
+    color: darkred;
+}

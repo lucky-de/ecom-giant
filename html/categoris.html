@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giantcart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="asstes/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="topbar d-flex justify-content-between align-items-center">
+                <div class="menu__icon">
+                    <img src="./asstes/img/menu-icon.svg" alt="menu" class="img-fluid">
+                </div>
+                <div class="logo__block">
+                    <a href="index.html"><img src="./asstes/img/logo.svg" alt="GiantCart" class="img-fluid"></a>
+                </div>
+                <div class="topright__block d-flex align-items-center">
+                    <div class="log_reg__block d-flex">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#loginmodal" class="form-btn"
+                            data-form="1">Log In</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#loginmodal" class="form-btn"
+                            data-form="2">Create Account</a>
+                    </div>
+                    <div class="search_cart__block d-flex">
+                        <button class="search__btn">
+                            <img src="./asstes/img/search.svg" alt="search">
+                        </button>
+                        <button class="cart__btn">
+                            <img src="./asstes/img/cart.svg" alt="cart">
+                            <span>3</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="d-flex justify-content-center align-items-center">
+                <a href="deals.html">Today's Deals</a>
+                <a href="contact-us.html">Customer Services</a>
+                <a href="about-us.html">About us</a>
+                <a href="terms.html">Terms & policy</a>
+                <a href="make-money.html">Make Money With us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="search__bar">
+        <div class="searchbar__content">
+            <a href="index.html"><img src="./asstes/img/logo.svg" alt="GiantCart" class="img-fluid"></a>
+            <form>
+                <input type="search" class="search-field" placeholder="Search products" autocomplete="off">
+                <button type="submit" class="search-submit">
+                    <img src="./asstes/img/search.svg" alt="search">
+                </button>
+            </form>
+            <div class="search__close">
+                <img src="./asstes/img/close.png" alt="close" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="slide__nav">
+        <div class="sildenav__content">
+            <div class="slidenav__header">
+                <div class="user-dp">
+                    <div class="dp">
+                        <img src="./asstes/img/user.png" alt="username" class="img-fluid">
+                    </div>
+                    <p>Hello, Sign in</p>
+                </div>
+                <div class="slidenav__close">
+                    <img src="./asstes/img/close.png" alt="close" class="img-fluid">
+                </div>
+            </div>
+            <div class="slidenav__main">
+                <nav>
+                    <a href="deals.html">Today's Deals</a>
+                    <a href="contact-us.html">Customer Services</a>
+                    <a href="about-us.html">About us</a>
+                    <a href="terms.html">Terms & policy</a>
+                    <a href="make-money.html">Make Money With us</a>
+                </nav>
+                <div class="slidenav__block">
+                    <p><img src="./asstes/img/categories.png" alt="category"> Shop by category</p>
+                    <ul>
+                        <li><a href="categoris.html">Automobiles & Spare Parts</a></li>
+                        <li><a href="categoris.html">Appliances</a></li>
+                        <li><a href="categoris.html">Beauty & Personal Care</a></li>
+                        <li><a href="categoris.html">Electronics</a></li>
+                        <li><a href="categoris.html">Clothing & Shoes</a></li>
+                        <li><a href="categoris.html">Jewelry & Watches</a></li>
+                    </ul>
+                </div>
+                <div class="signin__block">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginmodal" class="form-btn" data-form="1">Sign
+                        In</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginmodal" class="form-btn"
+                        data-form="2">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidecart__block">
+        <div class="sidecart__content">
+            <div class="side__cart">
+                <div class="sidecart__header">
+                    <p>Shopping Cart</p>
+                    <button class="sidecart__close"><img src="./asstes/img/gray-close.svg" alt="close"></button>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product1.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidecart__total">
+                <div>
+                    <p>Subtotal</p>
+                    <p><span>$7200</span></p>
+                </div>
+                <div>
+                    <p>Shipping</p>
+                    <p>Flat rate : <span>$10</span></p>
+                </div>
+                <div class="sc__total">
+                    <p>Total</p>
+                    <p>$7210</p>
+                </div>
+                <a href="#" class="btn">Checkout</a>
+                <a href="#" class="btn">View cart</a>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="loginmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div data-formnum="1" class="signin__form d-none">
+                <div class="form__header">
+                    <h3>Sign In</h3>
+                    <div class="flex">
+                        <p>Don’t have an account?</p>
+                        <button class="form-btn" data-form="2">Sign Up here</button>
+                    </div>
+                </div>
+                <form>
+                    <input type="text" class="form-control" placeholder="Email / Phone number">
+                    <input type="password" class="form-control" placeholder="Password">
+                    <button type="submit" class="btn btn-primary">Sign In <img src="./asstes/img/arrow-right.svg"
+                            alt="submit"></button>
+                </form>
+                <button class="form-btn" data-form="3">Forgot Password?</button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div data-formnum="2" class="signin__form signup__form d-none">
+                <div class="form__header">
+                    <h3>Sign Up</h3>
+                    <div class="flex">
+                        <p>Already have an account?</p>
+                        <button class="form-btn" data-form="1">Log In</button>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form>
+                    <input type="text" class="form-control" placeholder="Your name">
+                    <input type="number" class="form-control" placeholder="Phone number">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                    <input type="password" class="form-control" placeholder="Password">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="checkText">
+                        <label class="form-check-label" for="checkText">Yes, I agree with GiantCart <a href="#">Privacy
+                                Policy</a> and
+                            <a href="#">Terms of Use</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign Up <img src="./asstes/img/arrow-right.svg"
+                            alt="submit"></button>
+                </form>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div data-formnum="3" class="signin__form forget__format d-none">
+                <div class="form__header">
+                    <h3>Lost Your Password?</h3>
+                    <div class="flex">
+                        <p>Please enter your username or email address. You will
+                            receive a link to create a new password via email.</p>
+                    </div>
+                </div>
+                <form>
+                    <input type="text" class="form-control" placeholder="Email / Phone number">
+                    <button type="submit" class="btn btn-primary">Reset Password <img src="./asstes/img/arrow-right.svg"
+                            alt="submit"></button>
+                </form>
+                <div class="flex">
+                    <p>Remember now?</p>
+                    <button class="form-btn" data-form="1">Back to Login</button>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="breadcrumb__section">
+            <div class="breadcrumb__block">
+                <h3>Appliances </h3>
+                <a href="#">Home</a>
+                <span><img src="./asstes/img/breadcrumb-arrow.svg" alt="arrow"></span>
+                <a href="#">Appliances </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="categoris__section">
+                <div class="categoris__tab">
+                    <div class="tab__header">
+                        <button class="tab-btn" data-tabname="All" class="active">All</button>
+                        <button class="tab-btn" data-tabname="Laundry">Laundry Appliances </button>
+                        <button class="tab-btn" data-tabname="Refrigerators">Refrigerators </button>
+                        <button class="tab-btn" data-tabname="Freezers">Freezers </button>
+                        <button class="tab-btn" data-tabname="Microwave">Microwave Ovens </button>
+                        <button class="tab-btn" data-tabname="Dishwashers">Dishwashers </button>
+                        <button class="tab-btn" data-tabname="AC">AC & Fans</button>
+                        <button class="tab-btn" data-tabname="Vacuum">Vacuum Cleaners </button>
+                    </div>
+                    <div class="tab__content">
+                        <div class="each__tab" data-tabfor="All">
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><svg width="8" height="13" viewBox="0 0 8 13"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.172 6.364L0.222 11.314L1.636 12.728L8 6.364L1.636 0L0.222 1.414L5.172 6.364Z"
+                                                    fill="#A4B0BE"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each__tab d-none" data-tabfor="Laundry">
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><svg width="8" height="13" viewBox="0 0 8 13"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.172 6.364L0.222 11.314L1.636 12.728L8 6.364L1.636 0L0.222 1.414L5.172 6.364Z"
+                                                    fill="#A4B0BE"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each__tab d-none" data-tabfor="Refrigerators">
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><svg width="8" height="13" viewBox="0 0 8 13"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.172 6.364L0.222 11.314L1.636 12.728L8 6.364L1.636 0L0.222 1.414L5.172 6.364Z"
+                                                    fill="#A4B0BE"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each__tab d-none" data-tabfor="Freezers">
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><svg width="8" height="13" viewBox="0 0 8 13"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.172 6.364L0.222 11.314L1.636 12.728L8 6.364L1.636 0L0.222 1.414L5.172 6.364Z"
+                                                    fill="#A4B0BE"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each__tab d-none" data-tabfor="Microwave">
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><svg width="8" height="13" viewBox="0 0 8 13"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.172 6.364L0.222 11.314L1.636 12.728L8 6.364L1.636 0L0.222 1.414L5.172 6.364Z"
+                                                    fill="#A4B0BE"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each__tab d-none" data-tabfor="Dishwashers">
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><svg width="8" height="13" viewBox="0 0 8 13"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.172 6.364L0.222 11.314L1.636 12.728L8 6.364L1.636 0L0.222 1.414L5.172 6.364Z"
+                                                    fill="#A4B0BE"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each__tab d-none" data-tabfor="AC">
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><svg width="8" height="13" viewBox="0 0 8 13"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.172 6.364L0.222 11.314L1.636 12.728L8 6.364L1.636 0L0.222 1.414L5.172 6.364Z"
+                                                    fill="#A4B0BE"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="each__tab d-none" data-tabfor="Vacuum">
+                            <div class="product__row">
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#">
+                                            <img src="./asstes/img/product2.jpg" alt="product name">
+                                        </a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Microwave Oven</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$97</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product1.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>YSL Perfumes</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$130</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product4.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Car Tyres</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$70</p>
+                                    </div>
+                                </div>
+                                <div class="product__card">
+                                    <div class="product__img">
+                                        <a href="#"><img src="./asstes/img/product3.jpg" alt="product name"></a>
+                                    </div>
+                                    <div class="product__title">
+                                        <div class="product__name">
+                                            <p>Vaccuum Cleaner</p>
+                                            <div class="rating">
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                                <div class="rating-star"></div>
+                                            </div>
+                                        </div>
+                                        <p class="product-price">$115</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><svg width="8" height="13" viewBox="0 0 8 13"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.172 6.364L0.222 11.314L1.636 12.728L8 6.364L1.636 0L0.222 1.414L5.172 6.364Z"
+                                                    fill="#A4B0BE"></path>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer__row">
+                <div class="media__block">
+                    <img src="./asstes/img/logo.svg" alt="GiantCart">
+                    <div class="media__links">
+                        <a href="#"><img src="./asstes/img/fb.svg" alt="facebook"></a>
+                        <a href="#"><img src="./asstes/img/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="./asstes/img/instagram.svg" alt="instagram"></a>
+                    </div>
+                </div>
+                <div class="anchor__block">
+                    <p>Quick Links</p>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="checkout.html">Order Now</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="anchor__block">
+                    <p>Services</p>
+                    <ul>
+                        <li><a href="deals.html">Today's Deal</a></li>
+                        <li><a href="contact-us.html">Customer Service</a></li>
+                        <li><a href="index.html">Registery</a></li>
+                        <li><a href="index.html">Gift Cards</a></li>
+                        <li><a href="make-money.html">Make Money With Us</a></li>
+                    </ul>
+                </div>
+                <div class="anchor__block">
+                    <p>Legal</p>
+                    <ul>
+                        <li><a href="terms.html">Terms & Condition</a></li>
+                        <li><a href="terms.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="contact__block">
+                    <p>Contact Us</p>
+                    <ul>
+                        <li><a href="#"><img src="./asstes/img/location.svg" alt="location"> 1010 Avenue, sw 54321,
+                                Chandigarh</a></li>
+                        <li><a href="#"><img src="./asstes/img/mail.svg" alt="mail">giantcart@gmail.com</a></li>
+                        <li><a href="#"><img src="./asstes/img/phone.svg" alt="phone">123 - 456 - 7890</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2022, All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./asstes/js/custom.js"></script>
+</body>
+
+</html>

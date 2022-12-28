@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giantcart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="asstes/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="topbar d-flex justify-content-between align-items-center">
+                <div class="menu__icon">
+                    <img src="./asstes/img/menu-icon.svg" alt="menu" class="img-fluid">
+                </div>
+                <div class="logo__block">
+                    <a href="index.html"><img src="./asstes/img/logo.svg" alt="GiantCart" class="img-fluid"></a>
+                </div>
+                <div class="topright__block d-flex align-items-center">
+                    <div class="log_reg__block d-flex">
+                        <a href="#">Log In</a>
+                        <a href="#">Create Account</a>
+                    </div>
+                    <div class="search_cart__block d-flex">
+                        <button class="search__btn">
+                            <img src="./asstes/img/search.svg" alt="search">
+                        </button>
+                        <button class="cart__btn">
+                            <img src="./asstes/img/cart.svg" alt="cart">
+                            <span>3</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="d-flex justify-content-center align-items-center">
+                <a href="deals.html">Today's Deals</a>
+                <a href="contact-us.html">Customer Services</a>
+                <a href="about-us.html">About us</a>
+                <a href="terms.html">Terms & policy</a>
+                <a href="make-money.html">Make Money With us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="search__bar">
+        <div class="searchbar__content">
+            <a href="index.html"><img src="./asstes/img/logo.svg" alt="GiantCart" class="img-fluid"></a>
+            <form>
+                <input type="search" class="search-field" placeholder="Search products" autocomplete="off">
+                <button type="submit" class="search-submit">
+                    <img src="./asstes/img/search.svg" alt="search">
+                </button>
+            </form>
+            <div class="search__close">
+                <img src="./asstes/img/close.png" alt="close" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="slide__nav">
+        <div class="sildenav__content">
+            <div class="slidenav__header">
+                <div class="user-dp">
+                    <div class="dp">
+                        <img src="./asstes/img/user.png" alt="username" class="img-fluid">
+                    </div>
+                    <p>Hello, Sign in</p>
+                </div>
+                <div class="slidenav__close">
+                    <img src="./asstes/img/close.png" alt="close" class="img-fluid">
+                </div>
+            </div>
+            <div class="slidenav__main">
+                <nav>
+                    <a href="deals.html">Today's Deals</a>
+                    <a href="contact-us.html">Customer Services</a>
+                    <a href="about-us.html">About us</a>
+                    <a href="terms.html">Terms & policy</a>
+                    <a href="make-money.html">Make Money With us</a>
+                </nav>
+                <div class="slidenav__block">
+                    <p><img src="./asstes/img/categories.png" alt="category"> Shop by category</p>
+                    <ul>
+                        <li><a href="categoris.html">Automobiles & Spare Parts</a></li>
+                        <li><a href="categoris.html">Appliances</a></li>
+                        <li><a href="categoris.html">Beauty & Personal Care</a></li>
+                        <li><a href="categoris.html">Electronics</a></li>
+                        <li><a href="categoris.html">Clothing & Shoes</a></li>
+                        <li><a href="categoris.html">Jewelry & Watches</a></li>
+                    </ul>
+                </div>
+                <div class="signin__block">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginmodal" class="form-btn" data-form="1">Sign
+                        In</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#loginmodal" class="form-btn"
+                        data-form="2">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidecart__block">
+        <div class="sidecart__content">
+            <div class="side__cart">
+                <div class="sidecart__header">
+                    <p>Shopping Cart</p>
+                    <button class="sidecart__close"><img src="./asstes/img/gray-close.svg" alt="close"></button>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product1.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidecart__item">
+                    <div class="sc__img">
+                        <img src="./asstes/img/product2.jpg" alt="product name" class="img-fluid">
+                    </div>
+                    <div class="sc__info">
+                        <p>Patek Philippe</p>
+                        <p>$5000</p>
+                        <div class="sc__btns">
+                            <div class="item__count">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidecart__total">
+                <div>
+                    <p>Subtotal</p>
+                    <p><span>$7200</span></p>
+                </div>
+                <div>
+                    <p>Shipping</p>
+                    <p>Flat rate : <span>$10</span></p>
+                </div>
+                <div class="sc__total">
+                    <p>Total</p>
+                    <p>$7210</p>
+                </div>
+                <a href="#" class="btn">Checkout</a>
+                <a href="#" class="btn">View cart</a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="breadcrumb__section">
+            <div class="breadcrumb__block">
+                <h3>Make Money With Us</h3>
+                <a href="#">Home</a>
+                <span><img src="./asstes/img/breadcrumb-arrow.svg" alt="arrow"></span>
+                <a href="#">Make Money With Us</a>
+            </div>
+        </div>
+        <div class="container">
+            <section class="makemoney__section">
+                <div class="tab__btns">
+                    <button class="tab-btn active" data-tabname="why">Why GiantCart?</button>
+                    <button class="tab-btn" data-tabname="how">How To Start Selling On GiantCart</button>
+                    <button class="tab-btn" data-tabname="compare">Individual V/S Professional Seller
+                        Account</button>
+                </div>
+                <div class="tab__contents">
+                    <div class="each__tab" data-tabfor="why">
+                        <div class="why__gc">
+                            <div class="mb-5">
+                                <h3>What is E-commerce?</h3>
+                                <p>Ecommerce can be defined as the buying and selling of goods electronically
+                                    online. Its popular because of the many
+                                    benefits of e-business -internet marketing, electronic funds transfer, mobile
+                                    commerce – this is broken up into two
+                                    parts.</p>
+                                <ul>
+                                    <li>Online retail shopping that goes directly to consumers through mobile apps,
+                                        websites and even voice assistants, chats,
+                                        chatbots etc.</li>
+                                    <li>Sellers being a part of online marketplaces where many third-party sales
+                                        take place.</li>
+                                </ul>
+                            </div>
+                            <div class="mb-5">
+                                <h3>Advantages of E-commerce</h3>
+                                <p>The online marketplace is a good platform for you to expand your business. We are
+                                    going to explain what kind of
+                                    advantages there are by sharing what we know about online selling. In brief,
+                                    these are the plus points we will talk
+                                    about.</p>
+                                <ul>
+                                    <li>Product and price comparison</li>
+                                    <li>Faster buying process</li>
+                                    <li>Store and product listing creation</li>
+                                    <li>Cost reduction</li>
+                                    <li>Affordable advertising and marketing</li>
+                                    <li>Flexibility for customers</li>
+                                    <li>No reach limitations</li>
+                                    <li>Faster response to buyer/market demands</li>
+                                    <li>Several payment modes</li>
+                                </ul>
+                            </div>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#sellerOnboard"
+                                class="become__seller">Become a Seller <img src="./asstes/img/arrow-right.svg"
+                                    alt="arrow"> </a>
+                        </div>
+                    </div>
+                    <div class="each__tab d-none" data-tabfor="how">
+                        <div class="howto__start">
+                            <div class="flex">
+                                <div>
+                                    <h3>Start Selling on GiantCart</h3>
+                                    <p>Whether you’ve already got an established ecommerce business, a great idea
+                                        for a new product, or you just have a passion
+                                        for selling, here’s how to take that next step with GiantCart.</p>
+                                </div>
+                                <div>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cIMM4TJMDRI"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#sellerOnboard"
+                                class="become__seller">Become a Seller <img src="./asstes/img/arrow-right.svg"
+                                    alt="arrow">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="each__tab d-none" data-tabfor="compare">
+                        <div class="seller__acc">
+                            <div class="choosing__plan">
+                                <h3>Choose a Selling Plan</h3>
+                                <p>With the Individual plan, you’ll pay $0.99 every time you sell an item. The
+                                    Professional plan costs $39.99 per month, no
+                                    matter how many items you sell. For both plans, GiantCart also collects a
+                                    <a href="#">referral fee</a> on each sale, which is a
+                                    percentage of the total transaction and varies by product category. Visit
+                                    our <a href="#">pricing page</a> for a summary of selling
+                                    fees.
+                                </p>
+                            </div>
+                            <div class="selling__plan">
+                                <h3>Selling Plans</h3>
+                                <p>Our selling plans give you the freedom to pay per sale or stick to a flat monthly
+                                    fee. You can change or cancel your
+                                    plan at any time.</p>
+                                <ul class="plan__block">
+                                    <li>
+                                        <div>Plans</div>
+                                        <div>Individual</div>
+                                        <div>Professional</div>
+                                    </li>
+                                    <li>
+                                        <div></div>
+                                        <div>
+                                            <p><span>$0.99</span>/ item sold</p>
+                                            <p>+ additional selling fees</p>
+                                        </div>
+                                        <div>
+                                            <p><span>$39.99</span>/ month</p>
+                                            <p>+ additional selling fees</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="overview__block">
+                                <h3>Overview</h3>
+                                <div class="flex">
+                                    <div>
+                                        <p>This plan might be right for you if...</p>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>You sell fewer than 40 units a month</li>
+                                            <li>You're still deciding what to sell</li>
+                                            <li>You don't plan to advertise or use advanced selling tools</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>You sell more than 40 units a month</li>
+                                            <li>You want to advertise your products</li>
+                                            <li>You want to qualify for top placement on product detail pages</li>
+                                            <li>You want to use advanced selling tools, like APIs and reports</li>
+                                            <li>You want to sell products in restricted categories</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="plan__features">
+                                <h3>Selling Plan Features</h3>
+                                <ul>
+                                    <li>
+                                        <span>Add new products to the Amazon catalog</span>
+                                        <span><img src="./asstes/img/bluetick.svg" alt="tick"></span>
+                                        <span><img src="./asstes/img/bluetick.svg" alt="tick"></span>
+                                    </li>
+                                    <li>
+                                        <span>Grow your business with Fulfillment by GiantCart</span>
+                                        <span><img src="./asstes/img/bluetick.svg" alt="tick"></span>
+                                        <span><img src="./asstes/img/bluetick.svg" alt="tick"></span>
+                                    </li>
+                                    <li>
+                                        <span>Apply to sell in additional categories</span>
+                                        <span></span>
+                                        <span><img src="./asstes/img/bluetick.svg" alt="tick"></span>
+                                    </li>
+                                    <li>
+                                        <span>Save time creating listings in bulk</span>
+                                        <span></span>
+                                        <span><img src="./asstes/img/bluetick.svg" alt="tick"></span>
+                                    </li>
+                                    <li>
+                                        <span>Manage inventory with feeds, spreadsheets, and reports</span>
+                                        <span></span>
+                                        <span><img src="./asstes/img/bluetick.svg" alt="tick"></span>
+                                    </li>
+                                    <li>
+                                        <span>Qualify for top placement on product detail pages</span>
+                                        <span></span>
+                                        <span><img src="./asstes/img/bluetick.svg" alt="tick"></span>
+                                    </li>
+                                </ul>
+                                <div class="flex">
+                                    <div></div>
+                                    <div class="text-center"><a href="#">Sign up for Individual</a></div>
+                                    <div class="text-center"><a href="#">Sign up for Professional</a></div>
+                                </div>
+                            </div>
+                            <div class="refferal__fees">
+                                <h3>Category Referral Fees</h3>
+                                <p>Below is the fees table showing referral fees for different categories.</p>
+                                <ul>
+                                    <li>
+                                        <div class="text-left">Category</div>
+                                        <div class="text-center">Referral Fee Percentage</div>
+                                        <div class="text-center">Referral Fee Minimum</div>
+                                    </li>
+                                    <li>
+                                        <div class="text-left">Appliances - Compact (including parts and
+                                            accessories)</div>
+                                        <div class="text-center">
+                                            <ul>
+                                                <li>15% for the portion of the total sales price up to $300.00,
+                                                    and</li>
+                                                <li>8% for any portion of the total sales price greater than
+                                                    $300.00</li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-center">$0.30</div>
+                                    </li>
+                                    <li>
+                                        <div class="text-left">Appliances - Full-size</div>
+                                        <div class="text-center">8%</div>
+                                        <div class="text-center">$0.30</div>
+                                    </li>
+                                    <li>
+                                        <div class="text-left">Beauty</div>
+                                        <div class="text-center">
+                                            <ul>
+                                                <li>8% for products with a total sales price of $10.00 or less,
+                                                    and</li>
+                                                <li>15% for items with a total sales price greater than $10.00</li>
+                                            </ul>
+                                        </div>
+                                        <div class="text-center">$0.30</div>
+                                    </li>
+                                    <li>
+                                        <div class="text-left">Cell Phone Devices *</div>
+                                        <div class="text-center">8%</div>
+                                        <div class="text-center">$0.30</div>
+                                    </li>
+                                    <li>
+                                        <div class="text-left">Clothing & Accessories (excluding Shoes, Handbags, &
+                                            Sunglasses)</div>
+                                        <div class="text-center">17%</div>
+                                        <div class="text-center">$0.30</div>
+                                    </li>
+                                </ul>
+                                <div class="refferal__terms">
+                                    <ul>
+                                        <li><sup>1</sup> Shipping Cost Per Sale” value will be $0 for users who
+                                            select
+                                            Fulfillment By GiantCart.</li>
+                                        <li><sup>2</sup> Return value will be $0 for users who select Fulfillment by
+                                            seller.</li>
+                                        <li><sup>3</sup> The Everything Else category is available to sellers for
+                                            products that
+                                            do not clearly fit within existing categories.
+                                            Do not list items in the Everything Else category that appropriately
+                                            fall within another category.</li>
+                                    </ul>
+                                    <p>* Approval is required to sell in these categories, to protect the customer
+                                        experience and allow them to shop with
+                                        confidence on GiantCart.</p>
+                                </div>
+                            </div>
+                            <div class="adding__products">
+                                <h3>Adding Your Products</h3>
+                                <p>Here’s a short video explaining how to add products to sell on GiantCart.</p>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/cIMM4TJMDRI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="attract__customers">
+                                <div class="flex">
+                                    <div>
+                                        <h3>Attracting Customers</h3>
+                                        <p>Once your products go live in GiantCart's stores, there are a number of
+                                            things
+                                            you can do to attract customers. The
+                                            GiantCart Flywheel describes our method for driving growth.</p>
+
+                                        <p>Below are some ways to consider using “GiantCart Flywheel” principles to
+                                            generate momentum for your business.</p>
+                                    </div>
+                                    <div class="attract__img">
+                                        <img src="./asstes/img/export.png" alt="Attracting Customers" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advertise__offers">
+                                <h3>Advertise Your Offers</h3>
+                                <p>Help improve visibility of individual products and boost brand awareness by
+                                    advertising in search results and on product
+                                    pages. Running a deal or a coupon is another way to promote your products.</p>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#sellerOnboard"
+                                    class="become__seller">Become a Seller <img src="./asstes/img/arrow-right.svg"
+                                        alt="Become a Seller "></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="start__selling">
+                <h3>Start <span>Selling Today</span></h3>
+                <p>Put your products in front of the millions of customers who search GiantCart every day.</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#sellerOnboard">Sign Up <img
+                        src="./asstes/img/arrow-right.svg" alt="Become a Seller "></a>
+                <p>$39.99 a month + selling fees</p>
+                <div class="selling__model">
+                    <img src="./asstes/img/start_sell.png" alt="Selling Today" class="img-fluid">
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="sellerOnboard" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="signin__form signup__form">
+                <div class="form__header">
+                    <h3>Create an Account</h3>
+                    <div class="flex">
+                        <p>Already have an account?</p>
+                        <button class="form-btn" data-form="1">Log In</button>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Business Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Alternate Phone Number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pass__input">
+                                <div class="pass__toggler">
+                                    <img src="asstes/img/password-view.svg" alt="password-view" class="img-fluid">
+                                </div>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Address">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select class="form-select form-control">
+                                <option selected="">City</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-select form-control">
+                                <option selected="">State</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Postal / Zip Code">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="TIN Number">
+                        </div>
+                    </div>
+                    <textarea class="form-control" placeholder="Description of product/service being displayed"
+                        rows="4"></textarea>
+                    <p class="product__upload--title">Business License</p>
+                    <div class="upload__product">
+                        <img src="asstes/img/product-icon.svg" alt="icon">
+                        <label for="inputFile01">Drop your images here,
+                            or <span>click to browse</span></label>
+                        <input type="file" class="form-control" id="inputFile01">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="checkText">
+                        <label class="form-check-label" for="checkText">Yes, I agree with GiantCart <a href="#">Privacy
+                                Policy</a> and
+                            <a href="#">Terms of Use</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign Up <img src="./asstes/img/arrow-right.svg"
+                            alt="submit"></button>
+                </form>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer__row">
+                <div class="media__block">
+                    <img src="./asstes/img/logo.svg" alt="GiantCart">
+                    <div class="media__links">
+                        <a href="#"><img src="./asstes/img/fb.svg" alt="facebook"></a>
+                        <a href="#"><img src="./asstes/img/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="./asstes/img/instagram.svg" alt="instagram"></a>
+                    </div>
+                </div>
+                <div class="anchor__block">
+                    <p>Quick Links</p>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="checkout.html">Order Now</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="anchor__block">
+                    <p>Services</p>
+                    <ul>
+                        <li><a href="deals.html">Today's Deal</a></li>
+                        <li><a href="contact-us.html">Customer Service</a></li>
+                        <li><a href="index.html">Registery</a></li>
+                        <li><a href="index.html">Gift Cards</a></li>
+                        <li><a href="make-money.html">Make Money With Us</a></li>
+                    </ul>
+                </div>
+                <div class="anchor__block">
+                    <p>Legal</p>
+                    <ul>
+                        <li><a href="terms.html">Terms & Condition</a></li>
+                        <li><a href="terms.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="contact__block">
+                    <p>Contact Us</p>
+                    <ul>
+                        <li><a href="#"><img src="./asstes/img/location.svg" alt="location"> 1010 Avenue, sw 54321,
+                                Chandigarh</a></li>
+                        <li><a href="#"><img src="./asstes/img/mail.svg" alt="mail">giantcart@gmail.com</a></li>
+                        <li><a href="#"><img src="./asstes/img/phone.svg" alt="phone">123 - 456 - 7890</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2022, All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./asstes/js/custom.js"></script>
+</body>
+
+</html>
